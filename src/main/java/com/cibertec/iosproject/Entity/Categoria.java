@@ -16,6 +16,7 @@ public class Categoria {
     @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    private int idCategoria;
     private String nombre;
     private String tipo;
     private String imagen;
